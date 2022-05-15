@@ -6,8 +6,6 @@
     <meta name="Description" content="HomePage">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
-
     <title>HomePage</title>
 </head>
 <body id="bgid" onload="changeBg()">
@@ -128,6 +126,20 @@
         <li><a href="https://cloud.tencent.com" target="_blank"><img src="images/腾讯云.svg" ></a></li>
     </ul>
 </footer>
+
+<div id="" class="btm">
+    <textarea id="txt" type="text"  maxlength="10"></textarea>
+    <input type="button" id="add"  value="Add">
+    <input type="button" id="closeBox" onclick="addFocus()" value="">
+    <ul class= "notes"></ul>
+</div>
+
+<div class="ballbox"></div>
+<div class="ballBtns" id="btns">
+    <input type="button" onclick="autoBtn()" class="auto_btn " value="Start">
+    <input type="button" onclick="clearBalls()" class="clear_btn" value="Clear">
+</div>
+
 <script src="js/index.js"></script>
 </body>
 </html>
