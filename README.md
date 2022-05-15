@@ -7,5 +7,3 @@
 ## 介绍
 
 精美的原生HTML+CSS+JS个人导航主页
-
-- [Demo预览](https://sunyctf.github.io/personal-url-navigation/index.html)
